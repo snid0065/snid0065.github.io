@@ -1,5 +1,34 @@
 body {
     color:cadetblue;
 }
+/* change colour of all papragraphs and list items*/
+p,li {
+    color:lightslategrey;
+}
+/* target child element*/
+section h1 {
+    color:saddlebrown;
+}
+/* style a class*/
+.secondary-heading {
+    color:purple;
+}
 
-/* This is a CSS comment */
+/* style an id*/
+#main-section {
+    color:palevioletred;
+    font-weight:bold;
+}
+/*LVHA*/
+a:link {
+    color:peru;
+}
+a:visited{
+    color:slateblue;
+}
+a:hover{
+    color:teal;
+}
+a[href="https://algonquincollege.com"]{
+    color: green;
+}
