@@ -3,6 +3,15 @@ body {
     font-size: 18px;
 }
 
+h3, footer{
+    background-color: rgb(72, 138, 192);
+}
+.site-title{
+    color:rgb(15, 15, 104);
+}
 h1, footer{
     background-color: cadetblue;
 }
+ul {
+    list-style-type: square;
+  }
