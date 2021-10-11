@@ -19,6 +19,21 @@ ul {
     box-shadow: 10px 10px 5px black;
   }
 
-  ul:nth-child(5) {
-    background: red;
+  ul :nth-child(odd) {
+      background-color: lightslategrey;
+  }
+
+  
+  a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(72, 138, 192);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    background-color: rgb(72, 138, 192);
+    color: white;
   }
