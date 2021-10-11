@@ -16,7 +16,7 @@ ul {
   }
 
   #my-image{
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 0px 0px 2px 1px black;
   }
 
   ul :nth-child(odd) {
