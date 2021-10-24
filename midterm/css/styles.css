@@ -1,0 +1,12 @@
+body {
+    background-color: #aad4cf;
+    background-image: url("../images/lone-starfish-wide.jpg");
+    background-repeat: no-repeat;
+  }
+  header{
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #693906;
+    background-image: url("../images/lone-starfish-wide.jpg");
+  }
