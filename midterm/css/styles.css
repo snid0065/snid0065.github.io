@@ -17,10 +17,13 @@ body {
     margin: 0;
   }
 
+  h2{
+      padding:10px;
+  }
+
   #nav{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    font-size: 18px;
+    text-transform: uppercase;
   }
 
   a:link, a:visited {
@@ -28,7 +31,7 @@ body {
     color: black;
     border: 2px solid #D8EAE9;
     margin: 0;
-    padding: 10px 140px;
+    padding: 10px 129px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -39,6 +42,9 @@ body {
   } 
 
    .sitecontainer{
+    position: absolute;
+    top: 0;
+    left:22.5%;
     max-width: 1000px;
     background-color: #D8EAE9;
   }
@@ -51,24 +57,16 @@ body {
   }
 
   .container{
-    max-width: 600px;
+    max-width: 1000px;
     margin: 5 center;
     border: 2px solid black;
   }
   
-  .box{
-    width: 25%;
-    height: 100px;
-  }
   .textcontainer{
-    max-width: 600px;
+    max-width: 1000;
     padding:10px ;
     margin: 5 center;
   }
   
-  .box{
-    width: 25%;
-    height: 100px;
-  }
   
   
