@@ -1,10 +1,10 @@
-
+/*make the entire screen this colour and default the font type*/
 body {
     background-color: #aad4cf;
     font-family: sans-serif;
     font-size: 16px;
   }
-  
+  /*make the header, center it, add the background image of the header*/
   header{
     padding: 100px;
     font-size: 25px;
@@ -17,17 +17,20 @@ body {
     margin: 0;
   }
 
+  /*give the secondary headers some space*/
   h2{
-      padding:10px;
+      margin:10px;
   }
 
+  /*changes the font size and style of the words in the navigation*/
   #nav{
     font-size: 18px;
     text-transform: uppercase;
   }
 
+    /*sytles the navigation*/
   a:link, a:visited {
-    background-color: white;
+    background-color: #D8EAE9;
     color: black;
     border: 2px solid #D8EAE9;
     margin: 0;
@@ -36,19 +39,21 @@ body {
     text-decoration: none;
     display: inline-block;
   }
-  a:hover, a:active {
-    background-color: #aad4cf;
-    color: white;
+    a:hover, a:active {
+     background-color: #aad4cf;
+     color: white;
   } 
 
+  /*positioin the sitecontainer in the center and sets the size of the site*/
    .sitecontainer{
-    position: absolute;
-    top: 0;
-    left:22.5%;
-    max-width: 1000px;
-    background-color: #D8EAE9;
+     position: absolute;
+     top: 0;
+     left:22.5%;
+     max-width: 1000px;
+     background-color: #D8EAE9;
   }
-   
+
+  /*positions the image and changes size and location*/
   img{
       width: 200px;
       float: left;
@@ -56,17 +61,44 @@ body {
       margin: 20 20;
   }
 
+    /*box around the forms*/
   .container{
-    max-width: 1000px;
-    margin: 5 center;
-    border: 2px solid black;
+     max-width: 1000px;
+     margin: 5 center;
+     border: 2px solid black;
   }
-  
+
+   /*invisible box containing the block text and image*/
   .textcontainer{
-    max-width: 1000;
-    padding:10px ;
-    margin: 5 center;
+     max-width: 1000px;
+     padding:10px ;
+     margin: 5 center;
+  }
+
+  /*formatting the forms*/
+  #fullname{
+      display: block;
+      padding: 5px;
+      margin: 10px
+  }
+  #email{
+      display: block;
+      padding: 5px;
+      margin: 10px
+  }
+  #message{
+    padding: 5px;
+    margin: 10px
   }
   
+  #submit{
+    display: block;
+    padding: 5px;
+    margin: 10px  
+  }
   
+  /*copyright footer*/
+  footer{
+      padding: 15px
+  }
   
