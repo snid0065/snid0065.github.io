@@ -1,3 +1,4 @@
+
 /*make the entire screen this colour and default the font type*/
 body {
     background-color: #aad4cf;
@@ -58,13 +59,13 @@ body {
       width: 200px;
       float: left;
       padding:10px ;
-      margin: 20 20;
+      margin: 20px 20px;
   }
 
     /*box around the forms*/
   .container{
      max-width: 1000px;
-     margin: 5 center;
+     margin: 5px;
      border: 2px solid black;
   }
 
@@ -72,7 +73,7 @@ body {
   .textcontainer{
      max-width: 1000px;
      padding:10px ;
-     margin: 5 center;
+     margin: 5px;
   }
 
   /*formatting the forms*/
@@ -96,9 +97,9 @@ body {
     padding: 5px;
     margin: 10px  
   }
-  
+
   /*copyright footer*/
   footer{
       padding: 15px
   }
-  
+
