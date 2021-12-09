@@ -1,0 +1,143 @@
+/* -------------------------
+            CSS RESET 
+---------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------------------------
+        CUSTOM STYLES  
+------------------------------*/
+/* ----------- 
+    Mobile
+--------------*/
+html{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+    /* Navigation */
+    .star-logo{
+        background-color: #c78c06;
+        width: 12%;
+        padding: 15px;
+    }
+    .nav-block, a{
+        text-align: center;
+        padding: 15px;
+        background: #222;
+    }
+    .nav-block a:active{
+        color: black;
+    }
+    .nav-block a:hover{
+        background: #c78c06;
+        color:black;
+        padding-left: 225px;
+        padding-right: 225px;
+    }
+    .menu-center{
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #c78c06;
+        text-decoration: none;
+    }
+    .nav-grid .nav-block:nth-child(1){
+        background-color: #c78c06;
+        text-align: left;
+    }
+    .nav{
+        background-color: #222;        
+        list-style: none;
+        text-decoration: none;
+        padding: 20px;
+        vertical-align: bottom ;
+    }
+    .nav-styles{
+        text-align: center;
+    }
+    .nav-form{
+        display: flex;
+        flex-direction: row;
+    }
+    .search-bar{
+        width: 65%;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    ::placeholder{
+        font-size: 20px;
+    }
+    .im-magnifier{
+        background: #222;
+        color: #c78c06;
+        padding: 7px;
+    }
+    .magnify-button{
+        background: #222;        
+    }    
+    button.magnify-button{
+        border: 2px solid rgb(199, 140, 6);
+    }
+    /* Banner image */
+    .main-banner{
+        width: 100%;
+        vertical-align: top;
+    }
+    .banner-container{
+        position: relative;
+    }
+    .banner{
+        position: absolute;
+        top: 10%;
+        padding: 15px;
+        max-width: 100%;
+        height: 73%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    
