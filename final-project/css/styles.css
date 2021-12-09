@@ -271,4 +271,109 @@ html{
         padding-top: 3rem;
         padding-bottom: 1.5rem;
     }
-    
+    h4{
+        font-weight: bold;
+        font-size: .9rem;
+    }
+    .our-team-text{
+        line-height: 1.6;
+        font-size: 11px;
+        padding-bottom: 10px;
+    }
+    .our-team-grid{
+        background: #ffe6ac;
+    }
+    .bob-john{
+        width: 100%;
+    }
+    .horizontal{
+        border: none;
+        height: 2px;
+        background: #c78c06;
+    }
+    .word-padding{
+        padding: 10px;
+    }
+    .white{
+        border: 5px solid white;
+    }
+    /* Contact us */
+    .contact-us{
+        width: 85%;
+        padding: 10px;
+    }
+    .contact-us-text{
+        padding-top: 50px;
+        padding-left: 9px;
+    }
+    .message-padding{
+        padding-bottom: 10px;
+    }
+    .text-padding{
+        padding-bottom: 5px;
+    }
+    label{
+        font-size: 13px;
+    }
+    input[type=text]{ 
+        width: 113%;
+        height: 30px;
+        border-radius: 3px;
+        border-color: rgba(0, 0, 0);
+     } 
+     input[type=email]{ 
+        width: 113%;
+        height: 30px;
+        border-radius: 3px;
+        border-color: rgba(0, 0, 0);
+     } 
+    .message-box{
+        width: 113%;
+        resize: none;
+        height: 150px;
+        border-radius: 3px;
+    }
+    .send-button{
+        border: none;
+        background: #222;
+        color: #c78c06;
+        font-size: 20px;
+    }
+    .button-padding{
+        padding-top: 5px;
+    }
+    .hours-operation{
+        padding-top: 4px;
+        width: 90%;
+    }
+    th{
+        background-color: #ffe6ac;
+    }
+    table{
+        border-collapse: collapse;
+        width: 126%;
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 15px;
+        font-size: 13px;
+    }
+    .contact-us-h3{
+        padding-top: 4px;
+    }
+    .google-map{
+        position: relative;
+        width: 200%;
+    }
+    /* Footer */
+    footer .container{
+        background-color: #222;
+        color: #c78c06;
+        padding: 20px;
+    }
+    footer .container p{
+        padding: 10px;
+    }
+    .footer-size{
+        font-size: 13px;
+    }
