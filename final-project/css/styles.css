@@ -140,4 +140,46 @@ html{
         height: 73%;
         background: rgba(0, 0, 0, 0.6);
     }
+    h1{
+        color: white;
+        font-size: 3.2rem;
+        line-height: 1.5;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }   
+    .intro{
+        color: white;
+        font-size: 13px;
+        line-height: 1.6;
+        padding-bottom: 10px; 
+    } 
+    .connect-with-us{
+        border: none;
+        background: #c78c06;
+        padding: .8rem;
+        font-size: 1rem;
+    }
+    /* About us */
+    .about-us{
+        background: #ffe6ac;
+        padding: 13px;
+    }
+    .common-area{
+        width: 100%;
+        padding-bottom: 1.5rem;
+    }
+    .about-us-text{
+        font-size: 11px;
+        line-height: 1.6;
+        padding-bottom: 10px;
+    }
+    .h2-about{
+        padding-bottom: 20px;
+        padding-left: 2px;
+    }
+    /* Our services */
+    .top-padding{
+        padding-top: 3rem;
+    }
     
