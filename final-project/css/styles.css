@@ -182,4 +182,93 @@ html{
     .top-padding{
         padding-top: 3rem;
     }
+    h2{
+        font-size: 2.3rem;
+        padding: 10px;
+        font-weight: bold;
+    }
+    .our-services-1{
+        background-color: #ffe6ac;
+        border: 7px solid white;
+    }
+    .our-services-2{
+        background-color: #ffe6ac;
+        border: 7px solid white;
+    }
+    .button-2{
+        color: white;
+        background: #222;
+        border: none;
+        padding: 15px;
+        font-size: 1.1rem;
+        width: 40%;
+    }
+    .im-care-right{
+        padding: 10px;
+    }
+    h3{
+        font-size: 1.6rem;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    .our-team-h3{
+        padding-bottom: 10px;
+    }
+    .container-box{
+        padding: 10px;
+    }
+    .info{
+        padding-bottom: 10px;
+        line-height: 1.6;
+        font-size: 11px;
+    }
+    .info-2{
+        font-size: 10px;
+        line-height: 1.6;
+        padding-bottom: 30px;
+    }
+    .images{
+        width: 100%;
+    }
+    /* Our Vision */
+    .our-vision, img{
+        width: 100%;
+    }
+    .vision-paragraph{
+        padding-bottom: 15px;
+        line-height: 1.6;
+        font-size: 11px;
+    }
+    .vision-button{    
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 15px;
+        font-size: 1rem;    
+        border-color: #c78c06; 
+    }
+    .our-vision-container{
+        position: relative;
+    }
+    .our-vision-text{
+        display: block;
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 35px;
+        color: white;
+    }
+    .vision-image{
+        position: relative;
+        max-height: 255px;
+        object-fit: cover;
+        padding-top: 15px;
+    }
+    /* Our Team */
+    .h2-team{
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
     
