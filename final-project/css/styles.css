@@ -62,48 +62,74 @@ html{
 }
     /* Navigation */
     .star-logo{
-        background: #c78c06;
-        width: auto;
-        padding: 18px;
-    }
-    .nav-block, a{
-        text-align: center;
+        position:absolute;
+        top: 25px;
+        left: 10px;
         padding: 15px;
-        background: #222;
-    }
-    .nav-block a:active{
         background-color: #c78c06;
     }
-    .nav-block a:hover{
-        background: #c78c06;
-        color:black;
-        padding-left: 225px;
-        padding-right: 225px;
+
+    .menu {
+        background-color: #222;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position:relative;
     }
-    .menu-center{
-        font-size: 15px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        color: #c78c06;
+
+    a {
         text-decoration: none;
+        color:#c78c06;
     }
-    .nav-grid .nav-block:nth-child(1){
+
+    a:hover {
+        color: #222;
         background-color: #c78c06;
-        text-align: left;
     }
-    
+
+    ul li {
+        margin: 25px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ul li:hover {
+        color: #222;
+        background-color: #c78c06;
+    }
+  
+    #current {
+        background-color: #c78c06;
+        margin: 25px;
+        padding-top: 50px;
+    }
+
+    #current a {
+        color: #222;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+    .nav-form {
+       width:auto;
+       display:inline-flex;
+    }
     .search-bar{
-        width: 65%;
-        padding: 10px;
+        width: auto;
         border-radius: 3px;
+        left: 10px;
+        position: relative; 
     }
     ::placeholder{
         font-size: 20px;
     }
+    
     .im-magnifier{
         background: #222;
         color: #c78c06;
         padding: 7px;
+        margin: 5px;
     }
     .magnify-button{
         background: #222;        
@@ -111,6 +137,7 @@ html{
     button.magnify-button{
         border: 2px solid rgb(199, 140, 6);
     }
+    
     /* Banner image */
     .main-banner{
         width: 100%;
@@ -250,7 +277,6 @@ html{
     .vision-image{
         position: relative;
         max-height: 255px;
-        object-fit: cover;
         padding-top: 15px;
     }
     /* Our Team */
@@ -369,6 +395,71 @@ html{
 ------------------*/
 @media screen and (min-width: 760px){
     /* Navigation */
+    .menu {
+        background-color: #222;
+        align-items: center;
+        width: auto;
+    }
+
+    a {
+        text-decoration: none;
+        color:#c78c06;
+    }
+
+    a:hover {
+        color: #222;
+        background-color: #c78c06;
+    }
+
+    ul li {
+        position: relative;
+        list-style-type: none;
+        width: auto;
+        display: inline-block;
+        justify-content:  space-between;
+        align-items: center;
+    }
+    ul li:hover {
+        color: #222;
+        background-color: #c78c06;
+    }
+  
+    #current {
+        background-color: #c78c06;
+        margin: 25px 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+
+    }
+
+    #current a {
+        color: #222;
+    }
+
+    .search-bar{
+        margin: 10px;
+        padding: 10px 100px 5px 0px;
+        width: 680px;
+    }
+    ::placeholder{
+        font-size: 20px;
+        padding: 10px 100px 50px 25px;
+    }
+    
+    .im-magnifier{
+        background: #222;
+        color: #c78c06;
+        padding: 7px;
+    }
+    .magnify-button{
+        background: #222;        
+    }    
+    button.magnify-button{
+        border: 2px solid rgb(199, 140, 6);
+    }
+    /*
     .nav-grid{
         display: grid;
         grid-template-columns:repeat(8, 1fr);
@@ -399,7 +490,7 @@ html{
     } 
     .star-logo{
         background-color: #c78c06;
-        width: 75%;
+        
         padding: 0px;
     }
     .nav-grid{
@@ -416,6 +507,7 @@ html{
         font-size: 20px;
         color: #c78c06;
     }
+    */
     .nav-block a:active{
         color: black;
     }
@@ -424,18 +516,12 @@ html{
         color:black;
         padding: 20px
     }
-    input#name.search-bar{
-        position: relative;
-        width: 70%;
-    }
-    form.nav-form{
-        position: relative;
-        top: 15px;
-    } 
+    
     .im-magnifier{
         color: #c78c06;
     }        
     .magnify-button{
+        display:block;
         background: #222;
     }
     /* Banner image */

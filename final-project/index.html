@@ -15,9 +15,35 @@
 <body>
 <main>    
     <!-- navigation -->
-    <header>
-    <div class="field nav-grid">
-        <div class="nav-block">
+    <nav class="menu">
+        <div class="star-logo">
+            <img src="images/logo.png" alt="Star Logo">
+        </div>
+
+        <ul class="nav-block">
+            <li id="current"><a href="#">Home</a></li>
+            <li id="#"><a href="#">About</a></li>
+            <li id="#"><a href="#">Services</a></li>
+            <li id="#"><a href="#">Team</a></li>
+            <li id="#"><a href="#">Contact</a></li>
+        </ul>
+
+        <form class="nav-form">
+        <input type="text" id="name" name="fullname" placeholder="Search" class="search-bar">
+        <button class="magnify-button">
+            <i class="im im-magnifier"></i>
+        </button>
+
+       <!--<form class="nav-form">
+            <input type="text" id="name" name="fullname" placeholder="Search" class="search-bar">
+            <button class="magnify-button">
+                <i class="im im-magnifier"></i>
+            </button>
+        </form>--> 
+    </nav>
+    <!--<header>
+    <div class="stack stack-nav">
+        <div>
             <img src="images/logo.png" alt="Star Logo" class="star-logo">
         </div>
         <div class="nav-block">
@@ -44,7 +70,7 @@
             </form>
         </div>
     </div>      
-    </header>
+    </header> -->
     <!-- Banner Image and Text -->
     <section class="banner-container">
         <div class="banner">
@@ -146,7 +172,6 @@
                     <h3>Our Vision</h3>
                     <p class="vision-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab dolores, quasi nulla sunt explicabo libero nobis dignissimos quidem nesciunt laudantium odit consequuntur voluptatum autem ducimus quaerat nemo, esse impedit dolore?</p>
                     <button class="vision-button"> Learn More
-                        <i class="im im-care-right"></i>
                     </button>
                 </div>
             </div>
