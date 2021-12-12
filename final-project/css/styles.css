@@ -62,9 +62,9 @@ html{
 }
     /* Navigation */
     .star-logo{
-        background-color: #c78c06;
-        width: 12%;
-        padding: 15px;
+        background: #c78c06;
+        width: auto;
+        padding: 18px;
     }
     .nav-block, a{
         text-align: center;
@@ -72,7 +72,7 @@ html{
         background: #222;
     }
     .nav-block a:active{
-        color: black;
+        background-color: #c78c06;
     }
     .nav-block a:hover{
         background: #c78c06;
@@ -91,20 +91,7 @@ html{
         background-color: #c78c06;
         text-align: left;
     }
-    .nav{
-        background-color: #222;        
-        list-style: none;
-        text-decoration: none;
-        padding: 20px;
-        vertical-align: bottom ;
-    }
-    .nav-styles{
-        text-align: center;
-    }
-    .nav-form{
-        display: flex;
-        flex-direction: row;
-    }
+    
     .search-bar{
         width: 65%;
         padding: 10px;
@@ -148,7 +135,7 @@ html{
         padding-top: 15px;
         padding-bottom: 10px;
     }   
-    .intro{
+    .intro-text{
         color: white;
         font-size: 13px;
         line-height: 1.6;
