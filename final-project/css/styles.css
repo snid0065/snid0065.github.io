@@ -63,7 +63,7 @@ html{
     /* Navigation */
     .menu {
         background-color: #222;
-        width: 100vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -85,10 +85,9 @@ html{
         color: #222;
         background-color: #c78c06;
     }
-
+    
     ul li {
         margin: 25px;
-        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -96,6 +95,9 @@ html{
     ul li:hover {
         color: #222;
         background-color: #c78c06;
+    }
+    .nav-block {
+        width: 100vw;
     }
   
     #current {
@@ -109,12 +111,16 @@ html{
         padding-top: 50px;
         padding-bottom: 15px;
     }
+    .nav-form {
+        width:100%;
+        display:flex;
+        flex-direction: row; 
+     }
 
     .search-bar{
         border-radius: 3px;
         position: relative; 
         flex-grow: 1;
-        width: auto;
     }
     ::placeholder{
         font-size: 20px;
@@ -390,155 +396,26 @@ html{
 -----------------------------------------------------------------------------------*/
 @media screen and (min-width: 760px){
     /* Navigation */
-    .menu {
-        background-color: #222;
-        align-items: center;
-        width: auto;
+
+   .nav-block {
         display: flex;
         flex-direction: row;
-    }
-
-    .star-logo {
-        position: relative;
-        top: 10px;
-        left: 10px;
-        bottom: 10px;
-    }
-
-    a {
-        text-decoration: none;
-        color:#c78c06;
-    }
-    a:hover {
-        color: #222;
-        background-color: #c78c06;
-    }
-
-    .nav-block {
-        list-style-type: none;
-        display: flex;
-        width:70%;
-        align-items: center;
+        width:100%;
+        align-items:center;
     }
 
     nav ul li:hover {
         color: #222;
         background-color: #c78c06;
-        padding: 20px
+        padding: 20px;
     }
-    
-
     #current {
-        background-color: #c78c06;
-        padding-top: 0px;
-    }
-
-    #current a {
-        color: #222;
-        padding: 25px;
+        padding-top: 0mm;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
-    .nav-form {
-        display: flex;
-        align-items: center;
-    }
-    .search-bar{
-        border-radius: 3px;
-        position: relative; 
-        width: 60px;
-      }
-
-    ::placeholder{
-        font-size: 20px;
-    }
     
-    .im-magnifier{
-        background: #222;
-        color: #c78c06;
-        padding: 7px;
-    }
-    .magnify-button{
-        background: #222;  
-        display:block;      
-    }    
-    button.magnify-button{
-        border: 2px solid rgb(199, 140, 6); 
-    }
-    /*
-    .menu {
-        background-color: #222;
-        align-items: center;
-        width: auto;
-        display: flex;
-    }
-    .star-logo {
-        position: relative;
-    }
-
-    a {
-        text-decoration: none;
-        color:#c78c06;
-    }
-
-    a:hover {
-        color: #222;
-        background-color: #c78c06;
-    }
-
-    nav ul li {
-        position: relative;
-        list-style-type: none;
-        width: auto;
-        display: inline-block;
-        justify-content:  space-between;
-        align-items: center;
-    }
-    nav ul li:hover {
-        color: #222;
-        background-color: #c78c06;
-    }
-  
-    #current {
-        background-color: #c78c06;
-        margin: 25px 25px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-
-    }
-
-    #current a {
-        color: #222;
-    }
-    .search-bar{
-        margin: 10px;
-        width: 680px;
-    }
-    ::placeholder{
-        font-size: 20px;
-    }
-    .nav-block a:active{
-        color: black;
-    }
-    .nav-block a:hover{
-        background: #c78c06;
-        color:black;
-        padding: 20px
-    }
-    .im-magnifier{
-        background: #222;
-        color: #c78c06;
-        padding: 7px;
-    }
-    .magnify-button{
-        background: #222;  
-        display:block;      
-    }    
-    button.magnify-button{
-        border: 2px solid rgb(199, 140, 6);
-    }
-    */
     /* Banner image */
     .orange-rectangle{
         background-color: #222;
