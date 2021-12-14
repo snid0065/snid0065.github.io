@@ -61,14 +61,6 @@ html{
     margin: auto;
 }
     /* Navigation */
-    .star-logo{
-        position:absolute;
-        top: 25px;
-        left: 10px;
-        padding: 15px;
-        background-color: #c78c06;
-    }
-
     .menu {
         background-color: #222;
         width: 100vw;
@@ -77,10 +69,16 @@ html{
         align-items: center;
         position:relative;
     }
-
     a {
         text-decoration: none;
         color:#c78c06;
+    }
+    .star-logo{
+        position:absolute;
+        top: 25px;
+        left: 10px;
+        padding: 15px;
+        background-color: #c78c06;
     }
 
     a:hover {
@@ -111,15 +109,12 @@ html{
         padding-top: 50px;
         padding-bottom: 15px;
     }
-    .nav-form {
-       width:auto;
-       display:inline-flex;
-    }
+
     .search-bar{
-        width: auto;
         border-radius: 3px;
-        left: 10px;
         position: relative; 
+        flex-grow: 1;
+        width: auto;
     }
     ::placeholder{
         font-size: 20px;
@@ -132,7 +127,7 @@ html{
         margin: 5px;
     }
     .magnify-button{
-        background: #222;        
+        background: #222;   
     }    
     button.magnify-button{
         border: 2px solid rgb(199, 140, 6);
@@ -390,15 +385,94 @@ html{
     .footer-size{
         font-size: 13px;
     }
-/* ----------------
-    Desktop Styles
-------------------*/
+/* --------------------------------------------------------------------------------
+   ----------------------------------------------------------------- Desktop Styles
+-----------------------------------------------------------------------------------*/
 @media screen and (min-width: 760px){
     /* Navigation */
     .menu {
         background-color: #222;
         align-items: center;
         width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .star-logo {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color:#c78c06;
+    }
+    a:hover {
+        color: #222;
+        background-color: #c78c06;
+    }
+
+    .nav-block {
+        list-style-type: none;
+        display: flex;
+        width:70%;
+        align-items: center;
+    }
+
+    nav ul li:hover {
+        color: #222;
+        background-color: #c78c06;
+        padding: 20px
+    }
+    
+
+    #current {
+        background-color: #c78c06;
+        padding-top: 0px;
+    }
+
+    #current a {
+        color: #222;
+        padding: 25px;
+    }
+    
+    .nav-form {
+        display: flex;
+        align-items: center;
+    }
+    .search-bar{
+        border-radius: 3px;
+        position: relative; 
+        width: 60px;
+      }
+
+    ::placeholder{
+        font-size: 20px;
+    }
+    
+    .im-magnifier{
+        background: #222;
+        color: #c78c06;
+        padding: 7px;
+    }
+    .magnify-button{
+        background: #222;  
+        display:block;      
+    }    
+    button.magnify-button{
+        border: 2px solid rgb(199, 140, 6); 
+    }
+    /*
+    .menu {
+        background-color: #222;
+        align-items: center;
+        width: auto;
+        display: flex;
+    }
+    .star-logo {
+        position: relative;
     }
 
     a {
@@ -411,7 +485,7 @@ html{
         background-color: #c78c06;
     }
 
-    ul li {
+    nav ul li {
         position: relative;
         list-style-type: none;
         width: auto;
@@ -419,7 +493,7 @@ html{
         justify-content:  space-between;
         align-items: center;
     }
-    ul li:hover {
+    nav ul li:hover {
         color: #222;
         background-color: #c78c06;
     }
@@ -437,77 +511,13 @@ html{
     #current a {
         color: #222;
     }
-
     .search-bar{
         margin: 10px;
-        padding: 10px 100px 5px 0px;
         width: 680px;
     }
     ::placeholder{
         font-size: 20px;
-        padding: 10px 100px 50px 25px;
     }
-    
-    .im-magnifier{
-        background: #222;
-        color: #c78c06;
-        padding: 7px;
-    }
-    .magnify-button{
-        background: #222;        
-    }    
-    button.magnify-button{
-        border: 2px solid rgb(199, 140, 6);
-    }
-    /*
-    .nav-grid{
-        display: grid;
-        grid-template-columns:repeat(8, 1fr);
-        grid-template-rows:repeat(1, 1fr);
-        grid-template-areas: 
-            "one two three four five six seven seven";
-    }
-    .nav-grid .nav-block:nth-child(1){
-        grid-area: one;
-    }
-    .nav-grid .nav-block:nth-child(2){
-        grid-area: two;
-    }
-    .nav-grid .nav-block:nth-child(3){
-        grid-area: three;
-    }
-    .nav-grid .nav-block:nth-child(4){
-        grid-area: four;
-    }
-    .nav-grid .nav-block:nth-child(5){
-        grid-area: five;
-    } 
-    .nav-grid .nav-block:nth-child(6){
-        grid-area: six;
-    } 
-    .nav-grid .nav-block:nth-child(7){
-        grid-area: seven;
-    } 
-    .star-logo{
-        background-color: #c78c06;
-        
-        padding: 0px;
-    }
-    .nav-grid{
-        background-color: #222;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .menu-center{
-        position: relative;
-        top: 30px;
-        left: 10px;
-        font-size: 20px;
-        color: #c78c06;
-    }
-    */
     .nav-block a:active{
         color: black;
     }
@@ -516,14 +526,19 @@ html{
         color:black;
         padding: 20px
     }
-    
     .im-magnifier{
-        color: #c78c06;
-    }        
-    .magnify-button{
-        display:block;
         background: #222;
+        color: #c78c06;
+        padding: 7px;
     }
+    .magnify-button{
+        background: #222;  
+        display:block;      
+    }    
+    button.magnify-button{
+        border: 2px solid rgb(199, 140, 6);
+    }
+    */
     /* Banner image */
     .orange-rectangle{
         background-color: #222;
